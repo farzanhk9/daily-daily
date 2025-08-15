@@ -25,7 +25,7 @@ def add_expense():
     
     expenses.append({"date": date, "category": category, "amount": amount})
     save_expenses(expenses)
-    print("✅ Expense added ssuccessfully!")
+    print("✅ Expense added successfully!")
 
 def view_expenses():
     if not expenses:
